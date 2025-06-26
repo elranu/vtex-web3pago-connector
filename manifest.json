@@ -1,7 +1,7 @@
 {
   "name": "web3pago-basilc-connector",
   "vendor": "basilicpartnerar",
-  "version": "2.0.6",
+  "version": "2.0.5",
   "title": "Web3Pago Connector by Basilc",
   "description": "Get paid in crypto with Web3Pago by Basilic",
   "dependencies": {
