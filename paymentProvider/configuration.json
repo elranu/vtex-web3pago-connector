@@ -1,0 +1,37 @@
+{
+  "name": "Web3PagoConnector",
+  "paymentMethods": [
+    {
+      "name": "Web3Pago",
+      "allowsSplit": "disabled"
+    },
+    {
+      "name": "Promissories",
+      "allowsSplit": "disabled"
+    }
+  ],
+  "customFields": [
+    {
+      "name": "Client ID",
+      "type": "text"
+    },
+    {
+      "name": "Secret Token",
+      "type": "password"
+    },
+    {
+      "name": "Currency",
+      "type": "select",
+      "options": [
+        {
+          "text": "ARS",
+          "value": "1"
+        },
+        {
+          "text": "USD",
+          "value": "2"
+        }
+      ]
+    }
+  ]
+}
